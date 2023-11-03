@@ -1,0 +1,5 @@
+.DS_Store
+.ipynb_checkpoints
+.env
+Lorena_Key.pem
+Pre-Trained_Buildings_Segmentation.tensorflow.zip
