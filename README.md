@@ -1,5 +1,5 @@
-# Semantic Segmentation of Buildings in Stellite Images
-### By Lorena Robles
+># Semantic Segmentation of Buildings in Stellite Images
+>### By Lorena Robles
 ---
 
 ## Project Overview
@@ -11,7 +11,7 @@ It also differs from instance segmentation in that it does not differentiate spe
 
 >### Project Objective
 >
->**To train the newly developed Yolov8 segmentation model for segmentation of buildings suing satellite images.** 
+>**To train the newly developed Yolov8 segmentation model for segmentation of buildings using satellite images.** 
 
 YOLOv8 is a group of convolutional neural network models, created and trained using the PyTorch framework
 
@@ -38,10 +38,28 @@ The training, validation and test data originated from [Roboflow Universe Data](
 The data was then fed to the roboflow [annotation tool](https://roboflow.com/annotate). This tool returns the training, validation and test sets with a corresponding text file for each image; containing information about each class box and mask within the image.
 
 The web interface is then able to resize the images for best practices of different models as well as generate various augmentations to aid in the model training process. 
+
+The data may be downloaded into a zip file or loaded directly onto the notebook with the following code:
+
+To protect your API key load it into your notebook with getpass library
+<img src="./Presentation/Presentation Images/Loading_Roboflow_Key.png">
+
+Then define the project, and dataset version
+<img src="./Presentation/Presentation Images/code_to_grab_data.png">
+
+
+
+You may follow this link to obtain a roboflow API key. 
 ---
+
 ## Requirements for Running the Code
 
 #### Google Colab Environment:
+
+I recommend that you work in google colab while training or running inferences with a yolov8 segmentation model as I encountered runtime errors at the tail end of the training process while working in an AWS [EC2](https://aws.amazon.com/ec2/instance-types/) instance as well as my local computer unless I cloned the google colab virtual environment onto that platform (Keep reading for more details). 
+
+To run the modeling and prediction python notebooks in this repository using google colab simply run ```!pip install ultralytics``` 
+
 
 #### Hosting the app from local computer:
 ---
