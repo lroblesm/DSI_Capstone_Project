@@ -28,19 +28,22 @@ Case uses for semantic segmentation of satellite images include land use analysi
 ---
 
 ## Data
-Yolov8 models accept images in .bmp, .dng, .jpeg, .jpg, .mpo, .png, .tif, .tiff, .webp, and .pfm formats [source](https://docs.ultralytics.com/modes/predict/#images). The images used to train this model are satellite images with both .png and .jpg encoding. 
+Yolov8 models accept images in .bmp, .dng, .jpeg, .jpg, .mpo, .png, .tif, .tiff, .webp, and .pfm formats [source](https://docs.ultralytics.com/modes/predict/#images). The images used to train this model are satellite images with both .png and .jpg encoding and of a 640 by 640 pixel size. This model performs much better with larger pixel sizes, but can accept images of varying sizes per input. 
 
 ### Data Acquisition, Ingestion and Cleaning 
 
-#### Source
+#### Source Data:
 The training, validation and test data originated from [Roboflow Universe Data](https://universe.roboflow.com/roboflow-universe-projects/buildings-instance-segmentation/dataset/2). 
 
-The data was then fed to the roboflow [annotation tool](https://roboflow.com/annotate). This 
+The data was then fed to the roboflow [annotation tool](https://roboflow.com/annotate). This tool returns the training, validation and test sets with a corresponding text file for each image; containing information about each class box and mask within the image.
 
+The web interface is then able to resize the images for best practices of different models as well as generate various augmentations to aid in the model training process. 
 ---
 ## Requirements for Running the Code
 
+#### Google Colab Environment:
 
+#### Hosting the app from local computer:
 ---
 ## Table of Contents
 ### &nbsp;&nbsp;A)[Coding_Notebooks]()
