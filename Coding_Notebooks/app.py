@@ -1,3 +1,14 @@
+'''I want to give a BIG Thank you to Alan Andrews, 
+who was working hard on his own app late on Sunday night,
+and still was able to help me develop this code last minute,
+as our projects were so similar. 
+'''
+
+
+'''This app takes in satellite images of various sizes and performs segmentation of buildings
+using yolov8 segmentation model trained by me. Note that the model training process is nowhere 
+near complete at this stage'''
+
 # Importing necessary libraries
 import streamlit as st
 from PIL import Image as im
@@ -7,7 +18,7 @@ from ultralytics import YOLO
 
 
 # Loading production model, which is the current best/last trained model
-production_model = YOLO('25_epochs.pt')
+production_model = YOLO('35_epochs.pt')
 
 # Definining a function to preprocess the input image
 def preprocess_input_image(image):

@@ -42,13 +42,17 @@ For this project I am seeking to optimize for mAP as it requires IOU, Precision,
 
 Note: B is for detection and M is for segmentation. Also mAP50 puts the IoU threshold at .5 while mAP50-90 averages mAP over different IoU thresholds, from 0.5 to 0.95 [source](https://www.cs.cornell.edu/%7Esbell/pdf/cvpr2016-ion-bell.pdf]).
 
-<img src="./Presentation/Presentation Images/results.png">
-<img src="">
+### 50 Epochs
+<img src="./Presentation/Presentation Images/35_epochs.png">
 
+### 350 Epochs
+<img src="./Presentation/Presentation Images/350_epochs.png">
+
+At this point in time I am more than satisfied that the model has nothing left to learn from the training and validation data.
 
 ### Computational Expense:
 
-Because this model had never been trained on satellite images the initial computational expense was quite high. The first round of training with 35 epochs took a little over 15 hours. However the training speed did improve tremendously over time. The second round of training with 15 epochs took 3.5 hours. So, at this point I decided that I could afford to train the model for another 200 epochs before the project's final submission. 
+Because this model had never been trained on satellite images the initial computational expense was quite high. The first round of training with 35 epochs took a little over 15 hours. However the training speed did improve tremendously over time. The second round of training with 15 epochs took 3.5 hours. So, at this point I decided that I could afford to train the model for another 200 epochs before the project's final submission which was completed in 16.68 hours(5x faster than training the first 35 epochs). 
 
 ---
 ## **Conclusions & Future Steps**
