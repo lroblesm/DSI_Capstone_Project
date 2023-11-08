@@ -82,7 +82,7 @@ To run the app download the app.py document navigate to it's location inside you
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Model_Predictions_Process](./Coding_Notebooks/Model_Predictions_Process.ipynb)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3)[Satellite_Image_Building_Segmentation_Training_1](./Coding_Notebooks/Satellite_Image_Building_Segmentation_Training_1.ipynb)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4)[Satellite_Image_Building_Segmentation_Training_2](./Coding_Notebooks/Satellite_Image_Building_Segmentation_Training_2.ipynb)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5)[Satellite_Image_Building_Segmentation_Training_3]()
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5)[Satellite_Image_Building_Segmentation_Training_3](./Coding_Notebooks/Satellite_Image_Building_Segmentation_Training_3.ipynb)
 ### &nbsp;&nbsp;A)[Datasets](./Datasets/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[Denver_Metro_Area_Prediction_Images](./Datasets/Denver_Metro_Area_Prediction_Images/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2)[Original_Dataset_Test_Images_B&W](./Datasets/Original_Dataset_Test_Images_B&W/)
@@ -93,7 +93,7 @@ To run the app download the app.py document navigate to it's location inside you
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[20_Epochs](./Trained_Model_Outputs/20_epochs/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[35_Epochs](./Trained_Model_Outputs/35_epochs/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[50_Epochs](./Trained_Model_Outputs/50_epochs/)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[200_Epochs]()
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[200_Epochs](./Trained_Model_Outputs/200_Epcochs/)
 ### &nbsp;&nbsp;A)[Presentation](./Presentation/) 
 ### &nbsp;&nbsp;A)[Executive_Summary](Executive_Summary.md)
 ---
