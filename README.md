@@ -93,7 +93,7 @@ To run the app download the app.py document navigate to it's location inside you
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[20_Epochs](./Trained_Model_Outputs/20_epochs/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[35_Epochs](./Trained_Model_Outputs/35_epochs/)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[50_Epochs](./Trained_Model_Outputs/50_epochs/)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[200_Epochs](./Trained_Model_Outputs/200_Epcochs/)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1)[350_Epochs](./Trained_Model_Outputs/350_Epochs/)
 ### &nbsp;&nbsp;A)[Presentation](./Presentation/) 
 ### &nbsp;&nbsp;A)[Executive_Summary](Executive_Summary.md)
 ---
